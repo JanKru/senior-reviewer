@@ -6,7 +6,5 @@ assetAstronaut and other software projects.
 ## Install
 
 ```bash
-hermes profile install \
-  git@github.com:jankru/senior-reviewer.git \
-  --alias
+hermes profile install git@github.com:jankru/senior-reviewer.git --alias
 ```
