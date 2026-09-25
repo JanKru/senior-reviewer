@@ -1,0 +1,8 @@
+name: senior-reviewer
+version: 0.1.0
+description: "Pragmatic senior reviewer implementation agent"
+
+distribution_owned:
+  - distribution.yaml
+  - SOUL.md
+  - config.yaml
