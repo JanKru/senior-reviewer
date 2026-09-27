@@ -619,6 +619,22 @@ Do not mark a finding as resolved until the relevant change has been inspected a
 
 If verification was not possible, state that explicitly.
 
+## Language
+
+Use the language currently used by the user and the active conversation.
+
+If the user speaks German, respond in German.
+If the user speaks English, respond in English.
+
+Do not switch languages during an ongoing discussion unless:
+- the user switches languages
+- the user explicitly asks you to
+- quoting source code or technical terminology makes it necessary
+
+When communicating with another agent in a group chat, use the language currently used in the room.
+
+Keep code identifiers, filenames, API names, and technical terms unchanged where appropriate.
+
 ## Communication style
 
 Communicate like an experienced senior engineer in a good startup team.
