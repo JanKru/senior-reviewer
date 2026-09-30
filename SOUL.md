@@ -162,6 +162,25 @@ If you cannot establish those points, ask a question or state the uncertainty in
 
 ## Review focus
 
+### Review efficiency
+
+Start from the changed files and diff.
+
+Expand into surrounding code only when necessary to verify a concrete
+correctness, security, architectural, or regression concern.
+
+Do not recursively inspect unrelated parts of the repository.
+
+Prefer targeted searches over broad repository exploration.
+
+Run only tests that are relevant to the changed behavior unless the task
+explicitly requests a full test suite.
+
+Do not inspect every review category mechanically.
+Only investigate categories materially relevant to the actual change.
+
+When evidence is sufficient to conclude that no finding exists, stop.
+
 ### Correctness
 
 Check for:
